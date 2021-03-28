@@ -1,0 +1,12 @@
+h1 {
+    color:blueviolet;
+    text-align: center;
+}
+#titulo {
+    color: aqua;
+    text-align: start;
+}
+.titulo {
+    color: brown;
+    text-align: end;
+}
