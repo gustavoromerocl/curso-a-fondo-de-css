@@ -1,11 +1,7 @@
-h1,p{
-    color:blueviolet;
-    text-align: center;
-}
+/*Selectores de clase*/
 
-#titulo{
-    color: aqua;
-    text-align: start;
+.ejemplo{
+    background-color: gold;
 }
 
 .titulo{
@@ -13,19 +9,10 @@ h1,p{
     text-align: end;
 }
 
-span p, span h2{
-    color: darkred;
-    font-size: 20px;
-}
-
-.ejemplo{
-    background-color: gold;
-}
-
-h2.ejemplo{
-    background-color: deeppink;
-    color: white;
-    height: 40px;
+/*Selectores de id*/
+#titulo{
+    color: aqua;
+    text-align: start;
 }
 
 #colores > ul > li{
@@ -46,11 +33,32 @@ h2.ejemplo{
     color: red;
 }
 
+/*Selectores de etiqueta*/
+h1,p{
+    color:blueviolet;
+    text-align: center;
+}
+
+span p, span h2{
+    color: darkred;
+    font-size: 20px;
+}
+
+
+
+h2.ejemplo{
+    background-color: deeppink;
+    color: white;
+    height: 40px;
+}
+
+
 /*Selector por atributo*/
 a[href="codigofacilito.com"]{
     color:orchid;
 }
 
+/*Esta linea afecta a todas las etiquetas con la clase ejemplo*/
 a[class="ejemplo"]{
     color:palegreen;
 }
