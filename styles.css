@@ -62,3 +62,8 @@ a[href="codigofacilito.com"]{
 a[class="ejemplo"]{
     color:palegreen;
 }
+
+body{
+    background-image: url(cat.jpg);
+    background-repeat: no-repeat; /*repeat x, repeat y*/
+}
