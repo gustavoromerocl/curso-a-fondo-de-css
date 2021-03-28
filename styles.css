@@ -28,7 +28,7 @@ h2.ejemplo{
     height: 40px;
 }
 
-#colores{
+#colores > ul > li{
     background-color: black;
     color: white;
     font-size: 2em;
@@ -39,9 +39,18 @@ h2.ejemplo{
 }
 
 #green{
-    color: green;
+    color: green !important;
 }
 
 #red{
     color: red;
+}
+
+/*Selector por atributo*/
+a[href="codigofacilito.com"]{
+    color:orchid;
+}
+
+a[class="ejemplo"]{
+    color:palegreen;
 }
