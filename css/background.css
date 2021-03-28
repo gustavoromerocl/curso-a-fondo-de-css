@@ -7,7 +7,11 @@ body{
     background-position-y: center;
     background-attachment: fixed; /*Deja la imagen statica en el fondo al hace scroll*/
     background-size: contain; /*background-size: 30% 30%; */
-    background: linear-gradient(to bottom, green, yellow, red, blue)
+    /*background: linear-gradient(to bottom, green, yellow, red, blue)*/
+    /*background: linear-gradient(45deg,rgba(255,0,0,0), rgba(255,0,0,1) )/*Vertical*/
+    /*background: repeating-linear-gradient(45deg,red, yellow 20%, blue )/*Vertical*/
+    /*background: radial-gradient(green, yellow, red, blue);*/
+    background: repeating-radial-gradient(green, yellow 10%, red 15%);
 } 
 
 .space{
