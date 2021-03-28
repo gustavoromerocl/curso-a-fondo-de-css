@@ -1,12 +1,19 @@
-h1 {
+h1,p{
     color:blueviolet;
     text-align: center;
 }
-#titulo {
+
+#titulo{
     color: aqua;
     text-align: start;
 }
-.titulo {
+
+.titulo{
     color: brown;
     text-align: end;
+}
+
+span p, span h2{
+    color: darkred;
+    font-size: 20px;
 }
