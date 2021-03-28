@@ -1,7 +1,7 @@
 /*Selectores de clase*/
 
 .ejemplo{
-    background-color: gold;
+    background-color: rgb(255,0,0);
 }
 
 .titulo{
@@ -16,7 +16,7 @@
 }
 
 #colores > ul > li{
-    background-color: black;
+    background-color: #ff9090;
     color: white;
     font-size: 2em;
 }
