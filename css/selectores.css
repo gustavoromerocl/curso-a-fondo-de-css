@@ -1,3 +1,5 @@
+/*SELECTORES*/
+
 /*Selectores de clase*/
 
 .ejemplo{
@@ -63,15 +65,4 @@ a[class="ejemplo"]{
     color:palegreen;
 }
 
-body{
-    background-image: url(cat.jpg);
-    background-repeat: no-repeat; /*repeat x, repeat y*/
-    background-position-x: center;
-    background-position-y: center;
-    background-attachment: fixed; /*Deja la imagen statica en el fondo al hace scroll*/
-    background-size: contain; /*background-size: 30% 30%; */
-} 
 
-.space{
-    height: 300px;
-}
