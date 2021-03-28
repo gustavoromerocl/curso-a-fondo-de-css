@@ -17,3 +17,31 @@ span p, span h2{
     color: darkred;
     font-size: 20px;
 }
+
+.ejemplo{
+    background-color: gold;
+}
+
+h2.ejemplo{
+    background-color: deeppink;
+    color: white;
+    height: 40px;
+}
+
+#colores{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}
+
+#orange{
+    color: orange;
+}
+
+#green{
+    color: green;
+}
+
+#red{
+    color: red;
+}
