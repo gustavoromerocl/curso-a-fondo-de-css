@@ -3,6 +3,6 @@
 /*https://www.w3schools.com/colors/colors_names.asp*/
 
 h1{
-    background-color: palegreen;
-    color: #A52A2A;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(0,0,255);
 }
