@@ -6,3 +6,13 @@ h1{
     background-color: rgba(0, 0, 0, 0.5);
     color: rgb(0,0,255);
 }
+/*https://www.w3schools.com/colors/colors_hsl.asp*/
+
+
+body{
+    background-color: hsl(180, 50%, 50%); /*matiz, saturacion, luminosidad*/
+}
+
+p{
+    background-color: hsla(180, 50%, 50%, 0.5) /*Agrega opacidad*/
+}
