@@ -5,3 +5,11 @@ h1{
     font-style: italic;
     font-size: 1em; /*1em = 16px*/
 }
+
+p{
+    white-space: pre-line; 
+    /*No wrap ignora los saltos de lines*/
+    /*pre respeta los saltos de linea ingresados en el html*/
+    /*pre-line respeta los saltos de linea ingresados en el html y se adapta de forma responsiva*/
+}
+}
