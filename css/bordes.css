@@ -2,4 +2,7 @@
 
 h1{
     border: double yellowgreen 10px; /*solid dotted inset*/
+    border-top-style: dashed;
+    border-top-color: turquoise;
+    border-bottom: dotted blue 10px;
 }
