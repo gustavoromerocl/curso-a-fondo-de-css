@@ -6,3 +6,8 @@ h1{
     border-top-color: turquoise;
     border-bottom: dotted blue 10px;
 }
+
+p{
+    border: double yellowgreen 10px;
+    border-radius: 15px;
+}
