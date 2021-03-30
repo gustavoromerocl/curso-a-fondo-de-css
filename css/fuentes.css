@@ -4,6 +4,7 @@ h1{
     font-family: 'New Tegomin', Courier, monospace;
     font-style: italic;
     font-size: 1em; /*1em = 16px*/
+    text-align: center;
 }
 
 p{
@@ -13,4 +14,8 @@ p{
     /*pre-line respeta los saltos de linea ingresados en el html y se adapta de forma responsiva*/
 
     word-spacing: 30px; /*espacio entre palabras*/
+}
+
+a{
+    text-decoration: overline; /*none elimina las decoraciones*/
 }
