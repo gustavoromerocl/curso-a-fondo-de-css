@@ -1,0 +1,5 @@
+/*BORDES*/
+
+h1{
+    border: double yellowgreen 10px; /*solid dotted inset*/
+}
