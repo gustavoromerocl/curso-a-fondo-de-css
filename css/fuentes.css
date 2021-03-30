@@ -11,5 +11,6 @@ p{
     /*No wrap ignora los saltos de lines*/
     /*pre respeta los saltos de linea ingresados en el html*/
     /*pre-line respeta los saltos de linea ingresados en el html y se adapta de forma responsiva*/
-}
+
+    word-spacing: 30px; /*espacio entre palabras*/
 }
