@@ -1,0 +1,11 @@
+/*Posiciones*/
+
+/*La posición por defecto es static, que se ajusta de acuerdo a las necesidades el navegador    */
+/*La posicion relative permite posicionar el elemento dentro del contenedor*/
+
+.titulo{
+    /*position: relative;*/
+    position: fixed;
+    top: 0px;
+}
+
