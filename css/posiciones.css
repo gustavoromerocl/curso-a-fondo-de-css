@@ -3,6 +3,8 @@
 /*La posición por defecto es static, que se ajusta de acuerdo a las necesidades el navegador    */
 /*La posicion relative permite posicionar el elemento dentro del contenedor*/
 /*La posicion fixed mantiene el elemento en la posicion indicada aunque se haga scroll sobre la vista, la posicion es relativa a la resolucion del dom*/
+/*La posicion absoluta sobrepone el elemento por sobre cualquier otro y se posiciona de acuerdo al contenedor*/
+
 .titulo{
     /*position: relative;*/
     position: fixed;
@@ -16,4 +18,11 @@
 p{
     position: relative;
     top: 400px;
+}
+
+.absolute{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
 }
