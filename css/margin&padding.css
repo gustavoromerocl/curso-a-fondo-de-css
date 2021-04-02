@@ -2,7 +2,8 @@ h1{
     padding: 0px 0px 0px 50px; /*Se indican los lados en el orden del reloj, top, right, bottom, left*/
     padding: 100px; /*Se indica un valor y se plaica para todos los lados*/
     padding-top: 100px; /*Afecta solo el lado indicado, top, right, bottom, left*/
-    margin: 0;
+    margin: auto;
+    width: 50%;
 }
 
 p{
