@@ -1,0 +1,4 @@
+.image{
+    border-radius: 50%;
+}
+/*Las imagenes en png no se pueden redondear directamente ya que estas no son imagenes uniformes, lo correcto seria agregarle un borde */
