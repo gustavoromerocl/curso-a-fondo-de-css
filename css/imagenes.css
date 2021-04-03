@@ -38,3 +38,20 @@ body{
 .texto{
     text-align: center;
 }
+
+.polaroid img{
+    /*opacity: .4;*/
+    /*filter: blur(2px);*/
+    /*filter: contrast*/
+    /*filter: grayscale*/
+    /*filter: hue-rotate*/
+    /*filter: sepia*/
+    filter: brightness(.2);
+    
+}
+
+.polaroid img:hover{
+    /*opacity: 1;*/
+    /*filter: blur(2px);*/
+    filter: brightness(1);
+}
