@@ -22,6 +22,7 @@ son imagenes uniformes, lo correcto seria agregarle un borde */
 }
 
 div.polaroid{
+    position: relative;
     background-color: white;
     width: 300px;
     padding: 10px;
@@ -31,6 +32,9 @@ div.polaroid{
     display: inline-block;
 }
 
+.imgtext{
+    position: absolute;
+}
 body{
     background-color: seagreen;
 }
@@ -54,4 +58,11 @@ body{
     /*opacity: 1;*/
     /*filter: blur(2px);*/
     filter: brightness(1);
+}
+
+.imgtext{
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    font-size: 18px;
 }
