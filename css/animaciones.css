@@ -1,0 +1,54 @@
+/*ANIMACIONES*/
+div{
+    position: relative;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    display: inline-block;
+}
+
+div.polaroid1{
+    filter: sepia(.2);
+    
+}
+
+div.polaroid1:hover{
+    filter: sepia(1);
+    transform: translate(50px,100px); /* (x,y)*/
+    /*transform: translateX(50px);*/
+}
+
+div.polaroid2{
+    filter: sepia(.2);
+    
+    
+}
+
+div.polaroid2:hover{
+    filter: sepia(1);
+    transform: rotate(50deg);
+}
+
+div.polaroid3{
+    filter: sepia(.2);
+    
+    
+}
+
+div.polaroid3:hover{
+    filter: sepia(1);
+    transform: scale(1.2,1.2);
+    /*scalex, scaley*/
+}
+
+div.polaroid4{
+    filter: sepia(.2); 
+}
+
+div.polaroid4:hover{
+    transform: skew(20deg);
+    filter: sepia(1);
+}
