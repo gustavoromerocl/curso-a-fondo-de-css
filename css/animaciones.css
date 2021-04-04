@@ -1,4 +1,6 @@
 /*ANIMACIONES*/
+
+/*Transforms*/
 div{
     position: relative;
     background-color: white;
@@ -8,6 +10,8 @@ div{
     margin-bottom: 25px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
     display: inline-block;
+    transition: transform 2s , width 2s;
+    transition-delay: 1s; /*Retrasa la transicion*/
 }
 
 div.polaroid1{
@@ -16,6 +20,7 @@ div.polaroid1{
 }
 
 div.polaroid1:hover{
+    width: 500px;
     filter: sepia(1);
     transform: translate(50px,100px); /* (x,y)*/
     /*transform: translateX(50px);*/
@@ -51,4 +56,28 @@ div.polaroid4{
 div.polaroid4:hover{
     transform: skew(20deg);
     filter: sepia(1);
+}
+
+/*Transiciones*/
+div.polaroid5{
+    filter: sepia(.2); 
+}
+
+div.polaroid5:hover{
+    transform: rotate(360deg);
+    filter: sepia(1);
+}
+
+.cubo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 2s, transform 2s;
+    transition-timing-function: linear; /*velocidad de la transicion (ease, ease-in, ease-out)*/
+}
+
+div.cubo:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
 }
