@@ -72,7 +72,7 @@ div.polaroid5:hover{
     width: 100px;
     height: 100px;
     background-color: red;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 2s, height 2s, transform 4s;
     transition-timing-function: linear; /*velocidad de la transicion (ease, ease-in, ease-out)*/
 }
 
@@ -80,4 +80,21 @@ div.cubo:hover{
     width: 300px;
     height: 300px;
     transform: rotate(180deg);
+    animation-name: ejemplo;
+    animation-duration: 4s;
+    animation-delay: 1s;
 }
+
+@keyframes ejemplo {
+    0%{background-color: royalblue;}
+    25%{background-color: slateblue;}
+    50%{background-color: slategray;}
+    75%{background-color: springgreen;}
+    1000%{background-color: teal;}
+}
+/*
+@keyframes ejemplo {
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+*/
