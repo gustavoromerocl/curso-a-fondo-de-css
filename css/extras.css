@@ -116,3 +116,21 @@ div.cubo:hover{
     0%{transform: skew(20deg);}
     100%{transform: skew(-20deg);}
 }
+
+@media screen and (max-width: 400px){/*iphone 4*/
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 760px){ /*Tablets*/
+    body{
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (min-width: 761px){
+    body{
+        background-color: coral;
+    }
+}
