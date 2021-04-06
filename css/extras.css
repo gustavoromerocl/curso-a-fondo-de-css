@@ -139,3 +139,19 @@ div.cubo:hover{
         display: inline-block;
     }
 }
+
+a:visited{
+   color: cyan 
+}
+
+a:link{
+    color: yellow
+}
+
+a:active{
+    color: chartreuse
+}
+
+a:hover{
+    background-color: darkblue;
+}
