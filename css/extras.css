@@ -187,3 +187,18 @@ p:enabled
 p:disabled
 p:checked
 */
+
+.parrafo::first-line{
+    font-size: 2em;
+}
+
+.parrafo::first-letter{
+    font-size: 4em;
+    color: deeppink;
+}
+
+.parrafo::selection{
+    color: deeppink;
+    background-color: indigo;
+}
+/*::before :: after : agrega contenido antes o despues del elemento*/
