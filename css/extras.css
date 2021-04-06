@@ -155,3 +155,35 @@ a:active{
 a:hover{
     background-color: darkblue;
 }
+
+p:nth-child(2){
+    font-size: 3em;   
+}
+
+p:nth-last-child(1){
+    background-color: darkslateblue;
+}
+
+p:first-of-type{
+    background-color: darkturquoise;
+}
+
+p:last-of-type{
+    background-color: darkturquoise;
+}
+
+p:empty{
+    background-color: darkviolet;
+    width: 10px;
+    height: 10px;
+}
+
+/*
+p:not(selector)
+p:last-child
+p:only-child
+p:root
+p:enabled
+p:disabled
+p:checked
+*/
