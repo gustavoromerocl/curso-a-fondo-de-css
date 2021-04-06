@@ -1,0 +1,118 @@
+/*ANIMACIONES*/
+
+/*Transforms*/
+div{
+    position: relative;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    display: inline-block;
+    transition: transform 2s , width 2s;
+    transition-delay: 1s; /*Retrasa la transicion*/
+    animation: skew 4s infinite alternate;
+
+    /*
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    */
+}
+
+div.polaroid1{
+    filter: sepia(.2);
+    
+}
+
+div.polaroid1:hover{
+    width: 500px;
+    filter: sepia(1);
+    transform: translate(50px,100px); /* (x,y)*/
+    /*transform: translateX(50px);*/
+    cursor: wait;
+}
+
+div.polaroid2{
+    filter: sepia(.2);
+    
+    
+}
+
+div.polaroid2:hover{
+    filter: sepia(1);
+    transform: rotate(50deg);
+    cursor: no-drop;
+}
+
+div.polaroid3{
+    filter: sepia(.2);
+    
+    
+}
+
+div.polaroid3:hover{
+    filter: sepia(1);
+    transform: scale(1.2,1.2);
+    /*scalex, scaley*/
+    cursor: pointer;
+}
+
+div.polaroid4{
+    filter: sepia(.2); 
+}
+
+div.polaroid4:hover{
+    transform: skew(20deg);
+    filter: sepia(1);
+    cursor: help;
+}
+
+/*Transiciones*/
+div.polaroid5{
+    filter: sepia(.2); 
+}
+
+div.polaroid5:hover{
+    transform: rotate(360deg);
+    filter: sepia(1);
+    cursor: move;
+}
+
+.cubo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 2s, transform 4s;
+    transition-timing-function: linear; /*velocidad de la transicion (ease, ease-in, ease-out)*/
+}
+
+div.cubo:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+    animation-name: ejemplo;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    cursor: crosshair;
+}
+
+@keyframes ejemplo {
+    0%{background-color: royalblue;}
+    25%{background-color: slateblue;}
+    50%{background-color: slategray;}
+    75%{background-color: springgreen;}
+    1000%{background-color: teal;}
+}
+/*
+@keyframes ejemplo {
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+*/
+
+@keyframes skew {
+    0%{transform: skew(20deg);}
+    100%{transform: skew(-20deg);}
+}
