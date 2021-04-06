@@ -1,3 +1,5 @@
+/*Efecto paralax*/
+
 .ejercicios{
     position: relative;
     background: url('../cat.jpg') 0/ cover fixed;
@@ -21,4 +23,38 @@
 .text{
     top: 40%; bottom: 40%; left: 40%; right: 40%;
     position: absolute;
+}
+
+/*Galeria responsiva*/
+@media screen and (max-width: 400px){/*iphone 4*/
+    div.polaroid{
+        margin: 5px 0 25px 0;
+        height: 250px;
+        overflow: hidden;
+    }
+    img{
+        width: 100%;
+    }
+    .texto{
+        position: absolute;
+        bottom:5px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 760px){ /*Tablets*/
+    div.polaroid{
+        margin: 5px 0 25px 0;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 761px){
+    div.polaroid{
+        display: inline-block;
+        margin-left: 6%;
+    }
 }
