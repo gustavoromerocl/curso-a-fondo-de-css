@@ -1,5 +1,9 @@
 /*Efecto paralax*/
 
+img{
+    cursor: pointer;
+}
+
 .ejercicios{
     position: relative;
     background: url('../cat.jpg') 0/ cover fixed;
@@ -62,7 +66,7 @@
 /*Imagenes modal*/
 
 .modal{
-    /*display: none;*/
+    display: none;
     position: fixed;
     padding-top: 120px;
     top: 0;
