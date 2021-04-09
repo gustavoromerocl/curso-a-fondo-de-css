@@ -39,6 +39,7 @@ img{
     img{
         width: 100%;
     }
+    
     .texto{
         position: absolute;
         bottom:5px;
@@ -46,7 +47,7 @@ img{
         width: 100%;
     }
 
-    nav ul{
+    header nav ul li{
         display: none;
     }
 
@@ -64,13 +65,14 @@ img{
         width: 100%;
     }
 
-    nav ul{
+    header nav ul li{
         display: none;
     }
 
     div.logo_space{
         width: 80%;
     }
+
 }
 
 @media screen and (min-width: 761px){
@@ -79,7 +81,7 @@ img{
         margin-left: 6%;
     }
 
-    .iconNav{
+    div.iconNav{
         display: none;
     }
 }
@@ -183,4 +185,11 @@ li a{
     margin: 20px;
     float: right;
 }
+
+.show{
+    display: block;
+    float: none;
+    margin: 0;
+}
+
 /*NavBar*/

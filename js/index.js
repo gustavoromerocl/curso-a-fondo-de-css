@@ -9,6 +9,19 @@ $(function(){
         showModal(idImg, srcImg);
     })
     hideModal();
+
+    /*NavBar*/ 
+    $('.fa-bars').click(function(){
+        $('header nav ul li').addClass('show');
+        $('.fa-window-close').css('display', 'block');
+        $('.fa-bars').css('display', 'none')
+    })
+
+    $('.fa-window-close').click(function(){
+        $('header nav ul li').removeClass('show');
+        $('.fa-bars').css('display', 'block');
+        $('.fa-window-close').css('display', 'none')
+    })
 })
 
 function showModal(idImg, srcImg){
