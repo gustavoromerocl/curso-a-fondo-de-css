@@ -1,0 +1,27 @@
+Qué es el CSS Grid
+La creación de esquemas y estructuras de posicionamiento para elementos en una página web, ha sido un desafío constante para desarrolladores de todas épocas. Desde los primeros pasos de CSS, se observó la necesidad de introducir un módulo de grilla para poder crear esquemas como los que veíamos en las revistas.
+
+Sin embargo, no fue hasta 2012 cuando en Microsoft, por primera vez se implementó un módulo como el que hoy tenemos para manejo de filas y columnas en CSS Grid, Phil Cupp fue el pionero de este trabajo, él presentó la especificación que dio paso a CSS Grid.
+
+Cabe recalcar que la especificación que presentó Phil Cupp y que venía implementada en Internet Explorer, no es la misma que hoy usamos, ni tampoco es la primera intención de implementar un sistema de grilla en CSS, sin embargo, esta especificación fue la primera en ser implementada en un navegador, sí, Internet Explorer fue el primer navegador con una implementación de grilla.
+
+Lo interesante de aquél trabajo en Microsoft es que atrajo a una serie de personajes muy talentosos quienes en conjunto diseñador y redactaron la especificación moderna de CSS Grid que hoy está disponible en todos los navegadores.
+
+En contraste con Flexbox, el sistema de posicionamiento del CSS Grid está basado en dos dimensiones, filas y columnas.
+
+La idea del Grid, como también solemos conocer al módulo CSS Grid, es que definamos una grilla en la que podamos colocar elementos que ocupen uno o más espacios de la grilla.
+
+Lo que es interesante es que estas grillas pueden tener múltiples formas, podemos tener espacios que se extiendan a lo largo de filas y columnas, esto gracias a que el sistema en sí es de dos dimensiones.
+
+De nuevo, si lo contrastamos con Flexbox, hay que recordar que con dicho sistema sólo es posible controlar cómo se alinearán y colocarán elementos en una fila o en una columna, pero no podemos hacer que el mismo elemento se extienda a través de ambos. Con CSS Grid sí podemos.
+
+Es importante mencionar esto porque aunque los sistemas de grillas han estado presente en las páginas web, quizás desde el inicio con el uso de tablas, nunca habíamos tenido una herramienta tan flexible y poderosa con la que definir esquemas.
+
+Cabe recalcar, por cierto, que los sistemas de Flexbox y CSS Grid no compiten entre sí, más bien se utilizan para solucionar problemas distintos, por lo que ninguno reemplaza al otro, y es importante conocer ambos para sacar el mayor provecho de cada uno.
+
+Para comenzar a usar el sistema del Grid, primero debemos asignar el valor grid a la propiedad display de un elemento, esto significará que los elementos que se coloquen dentro del elemento se ubicarán de acuerdo a las reglas y al comportamiento de CSS Grid.
+
+display: grid;
+A continuación, vamos a ir detallando cuáles son las propiedades que pertenecen al módulo, a través de las cuales podemos definir, controlar y organizar elementos dentro de una grilla flexible y muy poderosa.
+
+Continuemos.
