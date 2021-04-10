@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    height: 300px;
+    width: 500px;
+    background-color: blueviolet;
+    /*Definir columnas y filas explicitamente*/
+    /*grid-template-columns: 200px 300px;*/
+    /*grid-template-rows: 100px 200px;*/
+
+    /*Asigna tamañao a las filas agregadas de forma implicita*/
+    /*grid-auto-rows: 100px;*/
+
+    /*Shorthand para agregar filas / columnas*/
+    grid-template: 100px 100px / 300px 50px;
+
+
+}
