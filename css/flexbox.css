@@ -4,6 +4,8 @@ div{
     /*row - column - row-reverse - column-reverse*/
     /*flex-wrap: wrap;*/
     flex-flow: row wrap;
+    justify-content: space-around;
+    /*start - end - center*/
 }
 
 button{
