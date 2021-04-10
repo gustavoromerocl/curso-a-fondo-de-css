@@ -3,9 +3,11 @@ div{
     /*flex-direction: row;*/
     /*row - column - row-reverse - column-reverse*/
     /*flex-wrap: wrap;*/
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: column wrap; /*flex direction - direccion del eje principal*/
+    justify-content: space-around; /*Eje principal*/
+    align-items: stretch; /*Eje cruzado*/
     /*start - end - center*/
+    
 }
 
 button{
