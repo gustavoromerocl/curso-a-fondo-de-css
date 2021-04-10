@@ -1,3 +1,11 @@
+div.titulo{
+    width: 100vh;
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+}
+
 div{
     display: flex;
     /*flex-direction: row;*/
