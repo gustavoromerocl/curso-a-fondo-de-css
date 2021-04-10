@@ -43,3 +43,25 @@ Además, es posible que nosotros definamos áreas dentro de la grilla, es decir,
 Tanto las líneas como las áreas de la grilla son elementos virtuales que no se ven y por tanto no afectan el cómo se muestra tu página, sin embargo, estos elementos sirven como referencia para que podamos colocar elementos dentro de la grilla.
 
 En resumen, la grilla tiene un número definido de filas y un número definido de columnas, al final de cada una se coloca una línea a la que podemos asignarle un nombre, si juntamos 1 o más filas o columnas, podemos formar un área, podemos asignar un elemento a dicha área. Las áreas son una alternativa para definir la posición de un elemento, pero no son la única forma, poco a poco las iremos conociendo en los siguientes temas, continuemos.
+
+
+##CSS Grid explícito e implícito
+
+Cuando trabajamos con CSS Grid, es posible definir la grilla de dos maneras: explícita e implícita.
+
+Cada vez que nosotros definimos la cantidad de columnas o filas que tendrá la grilla, sin importar que tamaño tengan, estamos definiendo el grid de manera explícita, como en el ejemplo que puedes ver a continuación donde definimos que la grilla tendrá 12 columnas que se dividen el espacio equitativamente:
+
+grid-template-columns: repeat(12,1fr);
+Suponiendo que colocamos más de 12 elementos de la grilla, superando la cantidad de columnas establecidas. En dicho escenario, se creará una nueva fila para colocar los elementos que no cupieron en la primera fila.
+
+Esta segunda fila no fue definida explícitamente, por lo que se considera parte del grid implícito.
+
+Algunas consideraciones importantes sobre el grid explícito y el grid implícito son:
+
+Es posible definir el grid explícito de tal manera que no sea necesario que exista el grid implícito
+Es posible estilizar las dimensiones del grid implícito con las propiedades grid-auto-columns y grid-auto-rows, veremos más sobre estas propiedades en los próximos temas
+Es posible acomodar elementos tanto en el grid implícito como en el grid explícito
+En términos prácticas, reconocer la diferencia entre las filas o columnas que se crean explícitamente o implícitamente, está en cómo vas a redimensionar los elementos y en que es posible acomodar elementos en filas o columnas que no has definido, ya que estos elementos usarán el grid implícito
+
+Continuemos
+
