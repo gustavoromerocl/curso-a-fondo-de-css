@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    height: 300px;
+    height: 600px;
     width: 500px;
     background-color: blue;
     /*Definir columnas y filas explicitamente*/
@@ -11,7 +11,7 @@
     /*grid-auto-rows: 100px;*/
 
     /*Shorthand para agregar filas / columnas*/
-    grid-template: 100px 100px 100px / 300px 50px 70px 80px;
+    grid-template: 100px 100px 100px / [inicial-col] 300px [medium-header] 50px [medium-footer] 70px [final-col] 80px;
 }
 
 /*Posicionar elementos en el grid*/
@@ -30,4 +30,10 @@
     /*shorthand : start / end*/
     grid-column: 1 / 5; 
     grid-row: 2 / 4
+}
+
+.green{
+    grid-column: inicial-col / final-col;
+    z-index: 1;
+    background-color: green;
 }
