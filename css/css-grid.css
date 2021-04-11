@@ -11,7 +11,8 @@
     /*grid-auto-rows: 100px;*/
 
     /*Shorthand para agregar filas / columnas*/
-    grid-template: [start-row] repeat(3, 100px) [end-row] / [inicial-col] 300px [medium-header] 50px [medium-footer] 70px [final-col] 80px;
+    /*fr es una unidad de medida por fraccion, que divide el espacio siguiendo la regla de las fracciones*/
+    grid-template: [start-row] repeat(3, 1fr) [end-row] / [inicial-col] 3fr [medium-header] 1fr [medium-footer] 1fr [final-col] 1fr;
 }
 
 /*Posicionar elementos en el grid*/
@@ -28,7 +29,7 @@
 .yellow{
     background-color: yellow;
     /*shorthand : start / end*/
-    grid-column: 1 / 5; 
+    grid-column: 1 / 2; 
     grid-row: start-row / end-row;
 }
 
