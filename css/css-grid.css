@@ -13,6 +13,9 @@
     /*Shorthand para agregar filas / columnas*/
     /*fr es una unidad de medida por fraccion, que divide el espacio siguiendo la regla de las fracciones*/
     grid-template: [start-row] repeat(3, 1fr) [end-row] / [inicial-col] 3fr [medium-header] 1fr [medium-footer] 1fr [final-col] 1fr;
+    grid-template-areas: "head head head head"
+                    "body body body body"
+                "footer footer footer footer";
 }
 
 /*Posicionar elementos en el grid*/
@@ -38,3 +41,16 @@
     z-index: 1;
     background-color: green;
 }
+
+.violet{
+    background-color: violet;
+    /*row-start column start row-end column end*/
+    grid-area: 3 / 2 / 3 / 5;
+}
+
+.turquese{
+    background-color: turquoise;
+    grid-area: head;
+    z-index: 10;
+}
+
