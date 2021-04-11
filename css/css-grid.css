@@ -16,6 +16,10 @@
     grid-template-areas: "head head head head"
                     "body body body body"
                 "footer footer footer footer";
+    
+    align-items: center;
+    justify-items: center;
+    
 }
 
 /*Posicionar elementos en el grid*/
@@ -26,6 +30,8 @@
     grid-row-start: 1;
     grid-row-end: 3;
     z-index: 1;
+    align-self: stretch;
+    justify-self: stretch;
 }
 
 /*Los numeros identifican a las lineas de la grilla, por lo que no representan los espacios*/
@@ -34,23 +40,37 @@
     /*shorthand : start / end*/
     grid-column: 1 / 2; 
     grid-row: start-row / end-row;
+    align-self: stretch;
+    justify-self: stretch;
 }
 
 .green{
     grid-column: inicial-col / final-col;
     z-index: 1;
     background-color: green;
+    align-self: stretch;
+    justify-self: stretch;
 }
 
 .violet{
     background-color: violet;
     /*row-start column start row-end column end*/
     grid-area: 3 / 2 / 3 / 5;
+    align-self: stretch;
+    justify-self: stretch;
 }
 
 .turquese{
     background-color: turquoise;
     grid-area: head;
     z-index: 10;
+    height: 30px;
+    width: 100px;
+
+
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
 }
 
