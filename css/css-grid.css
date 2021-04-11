@@ -32,6 +32,7 @@
     z-index: 1;
     align-self: stretch;
     justify-self: stretch;
+    order: 3;
 }
 
 /*Los numeros identifican a las lineas de la grilla, por lo que no representan los espacios*/
